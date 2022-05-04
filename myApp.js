@@ -17,7 +17,9 @@ app.use('/', helmet({
       ]
     }
   },
-  noCache,
+  noCache: {
+    
+  },
   hsts: {
     maxAge: 7776000,
     force: true
